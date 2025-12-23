@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+
+
+
+
+@layer utilities {
+
+    .bg-hero{
+        background-image: 
+        linear-gradient(rgba(7, 60, 146, 0.50),rgba(30, 90, 200, 0.9)), 
+        url('/public/plumbing-hero.jpg');
+        background-position: center;
+        background-size: cover;
+        
+    }
+
+    .bg-grid-1{
+      background-image: 
+      linear-gradient(rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.9)), 
+      url('/public/plumbing\,img.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .bg-grid-2{
+      background-image: 
+      linear-gradient(rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.9)), 
+      url('/public/grid-2.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .bg-grid-3{
+      background-image: 
+      linear-gradient(rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.9)), 
+      url('/grid-3.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .bg-grid-4{
+      background-image: 
+      linear-gradient(rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.9)), 
+      url('/grid-4.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+
+
+    
+
+
+}
+
+
+h1, h2, h3 {
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+p, button {
+   font-family: "Poppins", sans-serif;
+}
